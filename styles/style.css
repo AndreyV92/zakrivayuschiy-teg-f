@@ -419,13 +419,10 @@
 
   .button-save {
     flex-direction: column;
+    margin-left: 34px;
   }
 
   .floppy {
     inline-size: 28px;
-  }
-
-  .button-save {
-    margin-left: 34px;
   }
 }
