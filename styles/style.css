@@ -381,7 +381,7 @@
   opacity: 0.75;
 }
 
-@media (width <= 375px) {
+@media (width <= 376px) {
   .header {
     padding: 7.5rem clamp(14px, 15vw, 120px) 7.5rem clamp(56px, 15vw, 120px);
   }
