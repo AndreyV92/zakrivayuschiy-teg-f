@@ -81,8 +81,10 @@
   overflow: hidden;
 }
 
-@supports (text-stroke: 1px var(--bg-color)) {
+@supports (text-stroke: 1px var(--bg-color)) or (-webkit-text-stroke: 1px var(--bg-color)) {
   .card__mark {
+    -webkit-text-stroke: 1px var(--bg-color);
+    text-stroke: 1px var(--bg-color);
     text-shadow: none;
   }
 }
